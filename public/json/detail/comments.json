@@ -1,0 +1,977 @@
+{
+  "count": 20,
+  "start": 0,
+  "total": 24,
+  "reviews": [
+    {
+      "rating": {
+        "count": 1,
+        "max": 5,
+        "star_count": 4,
+        "value": 4
+      },
+      "useful_count": 8,
+      "sharing_url": "https://movie.douban.com/review/13897984/",
+      "title": "它不像这个时代拍的电影",
+      "url": "https://movie.douban.com/review/13897984/",
+      "abstract": "这是今年VIFF看的第一场电影，10月1日0:00过后，就可以线上观看了。\r\n早起看电影。开头四十分钟，笔记里记得风格换了几轮；\r\n看2010年后拍的美国1920/2000年代电影\r\n法国6，70年代拍的电影\r\n2000年后拍的美国indie小电影的家庭录像带\r\n拍着拍着，让人模糊了时间背景，去度假别墅很像把时间背景拉近了几十年，话音未落风格又从乡间风光转换成了美国家庭录像style。电影看了快半数，心里在嚎叫DB评分言过其实，殊不知到了后半段，可能也习惯了节奏，风格也固定下来，故事逐渐收拢，开始“渐入佳境”。\r\n这种围绕着一...",
+      "uri": "douban://douban.com/review/13897984",
+      "ad_info": null,
+      "topic": null,
+      "photos": [],
+      "reactions_count": 1,
+      "comments_count": 6,
+      "user": {
+        "kind": "user",
+        "name": "纸躯",
+        "url": "https://www.douban.com/people/42678515/",
+        "uri": "douban://douban.com/user/42678515",
+        "avatar": "https://img1.doubanio.com/icon/up42678515-18.jpg",
+        "is_club": false,
+        "type": "user",
+        "id": "42678515",
+        "uid": "luojiu"
+      },
+      "create_time": "2021-10-02 08:56:08",
+      "reshares_count": 0,
+      "type": "review",
+      "id": "13897984",
+      "subject": {
+        "type": "movie",
+        "title": "法比安"
+      }
+    },
+    {
+      "rating": null,
+      "useful_count": 5,
+      "sharing_url": "https://movie.douban.com/review/14157706/",
+      "title": "不在清醒中迷醉，就在迷醉中清醒。",
+      "url": "https://movie.douban.com/review/14157706/",
+      "abstract": "混沌和混乱只要到达一定程度，便成了一种不是在清醒中迷醉，就是在迷醉中清醒。人人心理都有一个徘徊在深渊边缘的临界点，就像那个期望有人来暴打自己一顿的画家妓女，只有那样，她才能证明自己还活着。\r\n活着就是侥幸，死亡才是必然，拉希德肯定没能想到他的死亡，最后竟然成为他自己“必然”的“一项成就”，未免也太讽刺太悲哀了。还是悲壮吧，悲哀这个词不应该放在他这样的人身上。\r\n有谁能不爱法比安？有谁能不爱汤姆希林？还有梅雷特·贝克尔，简直惊艳到即便只是一个配角也无法遮挡住她的光芒。 \r\n“亲爱的...",
+      "uri": "douban://douban.com/review/14157706",
+      "ad_info": null,
+      "topic": null,
+      "photos": [],
+      "reactions_count": 1,
+      "comments_count": 1,
+      "user": {
+        "kind": "user",
+        "name": "跑",
+        "url": "https://www.douban.com/people/183945598/",
+        "uri": "douban://douban.com/user/183945598",
+        "avatar": "https://img9.doubanio.com/icon/up183945598-4.jpg",
+        "is_club": false,
+        "type": "user",
+        "id": "183945598",
+        "uid": "183945598"
+      },
+      "create_time": "2022-01-22 00:41:14",
+      "reshares_count": 0,
+      "type": "review",
+      "id": "14157706",
+      "subject": {
+        "type": "movie",
+        "title": "法比安"
+      }
+    },
+    {
+      "rating": null,
+      "useful_count": 2,
+      "sharing_url": "https://movie.douban.com/review/13299765/",
+      "title": "#柏林电影节专访VOL.1#Albrecht Schuch:自由主义者的爱情？我们看到了可能",
+      "url": "https://movie.douban.com/review/13299765/",
+      "abstract": "本文首发于公众号：主持人雅婷（yytchristina），欢迎关注。 \r\n[#柏林电影节专访VOL.1#Albrecht Schuch:自由主义者的爱情？我们看到了可能]\r\n2021年柏林电影节与往常不一样。以往上万名世界各地的电影人和媒体人逐“熊”大战的盛景不见了，没有红毯，也没有挤在影院周围的观众。受新冠肺炎疫请的影响，今年柏林电影节分为两阶段，3月份为其一周的活动均改为线上举行。除了依旧坚守对其入围电影主题的政治性偏好之外，今年的柏林更多些多元、独立、大胆（Diverse, Independent and Daring）的意味，这不正符合柏林...",
+      "uri": "douban://douban.com/review/13299765",
+      "ad_info": null,
+      "topic": null,
+      "photos": [
+        {
+          "tag_name": "img_5728561",
+          "id": "5728561",
+          "image": {
+            "large": {
+              "url": "https://img2.doubanio.com/view/thing_review/l/public/p5728561.jpg",
+              "width": 600,
+              "height": 1053,
+              "size": 0
+            },
+            "raw": null,
+            "is_animated": false,
+            "normal": {
+              "url": "https://img2.doubanio.com/view/thing_review/l/public/p5728561.jpg",
+              "width": 600,
+              "height": 1053,
+              "size": 0
+            }
+          },
+          "description": ""
+        },
+        {
+          "tag_name": "img_5728560",
+          "id": "5728560",
+          "image": {
+            "large": {
+              "url": "https://img3.doubanio.com/view/thing_review/l/public/p5728560.jpg",
+              "width": 515,
+              "height": 332,
+              "size": 0
+            },
+            "raw": null,
+            "is_animated": false,
+            "normal": {
+              "url": "https://img3.doubanio.com/view/thing_review/l/public/p5728560.jpg",
+              "width": 515,
+              "height": 332,
+              "size": 0
+            }
+          },
+          "description": ""
+        },
+        {
+          "tag_name": "img_5728563",
+          "id": "5728563",
+          "image": {
+            "large": {
+              "url": "https://img2.doubanio.com/view/thing_review/l/public/p5728563.jpg",
+              "width": 600,
+              "height": 497,
+              "size": 0
+            },
+            "raw": null,
+            "is_animated": false,
+            "normal": {
+              "url": "https://img2.doubanio.com/view/thing_review/l/public/p5728563.jpg",
+              "width": 600,
+              "height": 497,
+              "size": 0
+            }
+          },
+          "description": ""
+        }
+      ],
+      "reactions_count": 1,
+      "comments_count": 1,
+      "user": {
+        "kind": "user",
+        "name": "杨旖旎小姐",
+        "url": "https://www.douban.com/people/147947940/",
+        "uri": "douban://douban.com/user/147947940",
+        "avatar": "https://img2.doubanio.com/icon/up147947940-2.jpg",
+        "is_club": false,
+        "type": "user",
+        "id": "147947940",
+        "uid": "147947940"
+      },
+      "create_time": "2021-03-05 20:56:31",
+      "reshares_count": 1,
+      "type": "review",
+      "id": "13299765",
+      "subject": {
+        "type": "movie",
+        "title": "法比安"
+      }
+    },
+    {
+      "rating": {
+        "count": 1,
+        "max": 5,
+        "star_count": 5,
+        "value": 5
+      },
+      "useful_count": 0,
+      "sharing_url": "https://movie.douban.com/review/14199348/",
+      "title": "走向毁灭",
+      "url": "https://movie.douban.com/review/14199348/",
+      "abstract": "电影长达三小时间，春节期间没看春晚愣是把这个看完了。从电影的开头到结尾都有很强烈的悲伤氛围。\r\n开始几分钟的走向毁灭字样，可以描述法比安这一生，失业，女友的离去，朋友的自杀，包括最后道德的救人，自己溺死而孩子爬了上来。是恨这个结局的，不该这样，可就算什么都没发生，纳粹也打了过来，法比安在走向毁灭，柏林在走向毁灭，这个世界也在走向毁灭。\r\n即使现在在和平年代，我依稀还能看得到法比安里的事情，就像电影中说的“这座石头筑起的城市，早已变成了疯人院”，各种社会事件，人血馒头，即使在和...",
+      "uri": "douban://douban.com/review/14199348",
+      "ad_info": null,
+      "topic": null,
+      "photos": [],
+      "reactions_count": 1,
+      "comments_count": 0,
+      "user": {
+        "kind": "user",
+        "name": "温久",
+        "url": "https://www.douban.com/people/54607221/",
+        "uri": "douban://douban.com/user/54607221",
+        "avatar": "https://img9.doubanio.com/icon/up54607221-5.jpg",
+        "is_club": false,
+        "type": "user",
+        "id": "54607221",
+        "uid": "54607221"
+      },
+      "create_time": "2022-02-04 04:42:13",
+      "reshares_count": 0,
+      "type": "review",
+      "id": "14199348",
+      "subject": {
+        "type": "movie",
+        "title": "法比安"
+      }
+    },
+    {
+      "rating": {
+        "count": 1,
+        "max": 5,
+        "star_count": 4,
+        "value": 4
+      },
+      "useful_count": 1,
+      "sharing_url": "https://movie.douban.com/review/14195110/",
+      "title": "砖砌盒子",
+      "url": "https://movie.douban.com/review/14195110/",
+      "abstract": "”爱是一种嗜好，要用身体表达。”\r\n他为什不在家乡？为什么不和母亲在一起？他在这个城市，这个疯狂的砖砌盒子里寻找什么？写不知所云的文字怂恿人们抽更多的烟。他明明可以在出生地等待欧洲崩溃。\r\n“她说柏林汉堡异地恋折磨着她的精神，她还说我们的性生活总是不协调，她需要我的时候我不在，我在的时候，做爱就像是无论饿不饿都要吃的早餐。她对我说不该对她生气。”\r\n“我说你白痴，这不是侮辱，这是事实。”他自称诗人，而不是滑稽演员。\r\n你在找什么？\r\n你在躲什么？\r\n我没有躲，我是在独处。\r\n“在这石头...",
+      "uri": "douban://douban.com/review/14195110",
+      "ad_info": null,
+      "topic": null,
+      "photos": [],
+      "reactions_count": 1,
+      "comments_count": 0,
+      "user": {
+        "kind": "user",
+        "name": "weibaigao",
+        "url": "https://www.douban.com/people/64344228/",
+        "uri": "douban://douban.com/user/64344228",
+        "avatar": "https://img2.doubanio.com/icon/up64344228-1.jpg",
+        "is_club": false,
+        "type": "user",
+        "id": "64344228",
+        "uid": "64344228"
+      },
+      "create_time": "2022-02-05 22:43:31",
+      "reshares_count": 0,
+      "type": "review",
+      "id": "14195110",
+      "subject": {
+        "type": "movie",
+        "title": "法比安"
+      }
+    },
+    {
+      "rating": null,
+      "useful_count": 0,
+      "sharing_url": "https://movie.douban.com/review/14195005/",
+      "title": "法比安观后感",
+      "url": "https://movie.douban.com/review/14195005/",
+      "abstract": "三个小时的电影，分三次看完。\r\n很多不甘心，想到很多让自己懊恼的事情，只是想想很多课需要自己修，心态也是。\r\n说回电影，每个角色我都喜欢，应该说是因为导演善良吧，每个角色都很温柔，没有讨厌的人，就连催缴房租的女房东都是温柔的。法比安温柔，拉布德温柔，妈妈温柔，温柔的人真是让人锁死。\r\n没想到拉布德会自杀，导演设计的这一下，让我在最后预感到法比安会死，静谧的树林，可爱的小鹿，奔赴所爱之人的心情，多美，美的氛围不撕裂怎么牵扯观众的心呢，可能一个好的故事，都需要是悲剧。\r\n我好爱法比安...",
+      "uri": "douban://douban.com/review/14195005",
+      "ad_info": null,
+      "topic": null,
+      "photos": [],
+      "reactions_count": 1,
+      "comments_count": 0,
+      "user": {
+        "kind": "user",
+        "name": "xiezhouzhou",
+        "url": "https://www.douban.com/people/202805889/",
+        "uri": "douban://douban.com/user/202805889",
+        "avatar": "https://img2.doubanio.com/icon/up202805889-3.jpg",
+        "is_club": false,
+        "type": "user",
+        "id": "202805889",
+        "uid": "202805889"
+      },
+      "create_time": "2022-02-05 22:17:20",
+      "reshares_count": 0,
+      "type": "review",
+      "id": "14195005",
+      "subject": {
+        "type": "movie",
+        "title": "法比安"
+      }
+    },
+    {
+      "rating": null,
+      "useful_count": 1,
+      "sharing_url": "https://movie.douban.com/review/14194232/",
+      "title": "法比安是仿真世界的理想主义者",
+      "url": "https://movie.douban.com/review/14194232/",
+      "abstract": "法比安给了我最近最纠结的一个问题给出了一点见解，即要不要做理想主义者，要不要选择理想主义的人生。\r\n我曾经对自己的存在方式做过各种各样的幻想。曾经一味认为只要好好努力就会获得想要的东西；再后来发觉社会阶级固化是存在的，但是阶级边界之间会有一定的流动性；再后来发觉不仅是在拆那，全世界的范围来看阶级分化更突出，这些都是弥补不来的，努力变得极为勉强，即使一个婴儿再如何奋力挣扎，都还是在婴儿床上。\r\n法比安死在了不会游泳，他也因为挑剔和自尊而溺亡于社会。理想主义者都这么离世了，但是人...",
+      "uri": "douban://douban.com/review/14194232",
+      "ad_info": null,
+      "topic": null,
+      "photos": [],
+      "reactions_count": 1,
+      "comments_count": 0,
+      "user": {
+        "kind": "user",
+        "name": "Chris.",
+        "url": "https://www.douban.com/people/222697451/",
+        "uri": "douban://douban.com/user/222697451",
+        "avatar": "https://img2.doubanio.com/icon/up222697451-1.jpg",
+        "is_club": false,
+        "type": "user",
+        "id": "222697451",
+        "uid": "222697451"
+      },
+      "create_time": "2022-02-05 17:35:16",
+      "reshares_count": 0,
+      "type": "review",
+      "id": "14194232",
+      "subject": {
+        "type": "movie",
+        "title": "法比安"
+      }
+    },
+    {
+      "rating": {
+        "count": 1,
+        "max": 5,
+        "star_count": 3,
+        "value": 3
+      },
+      "useful_count": 0,
+      "sharing_url": "https://movie.douban.com/review/14193000/",
+      "title": "另眼看柏林 法比安奇遇记",
+      "url": "https://movie.douban.com/review/14193000/",
+      "abstract": "本片的英语片名是Fabian, Going to the dogs.... 上世纪30年代的柏林，法比安日间从事某公司广告事务， 夜间徘徊于城市街道，邂逅一位美丽的演员。。。然而但女朋友的事业开始欣欣向荣时，法比安的未来却日渐黄昏。。。。\r\n法比安，与其说导演是在平铺直叙讲故事，还不如他的人生是被历史滚滚车轮推着往前。。如导演格拉夫一贯的作品风格，本片通过手持摄影机以及朋克摇滚的配乐呈现出类似于上世纪历史记录片的感觉，如此让法比安在如此动荡的历史背景下的经历显得合情合理、毫无突兀。。。相反， 观者可以慢慢从...",
+      "uri": "douban://douban.com/review/14193000",
+      "ad_info": null,
+      "topic": null,
+      "photos": [
+        {
+          "tag_name": "img_7004060",
+          "id": "7004060",
+          "image": {
+            "large": {
+              "url": "https://img3.doubanio.com/view/thing_review/l/public/p7004060.jpg",
+              "width": 600,
+              "height": 257,
+              "size": 0
+            },
+            "raw": null,
+            "is_animated": false,
+            "normal": {
+              "url": "https://img3.doubanio.com/view/thing_review/l/public/p7004060.jpg",
+              "width": 600,
+              "height": 257,
+              "size": 0
+            }
+          },
+          "description": ""
+        },
+        {
+          "tag_name": "img_7004063",
+          "id": "7004063",
+          "image": {
+            "large": {
+              "url": "https://img2.doubanio.com/view/thing_review/l/public/p7004063.jpg",
+              "width": 600,
+              "height": 531,
+              "size": 0
+            },
+            "raw": null,
+            "is_animated": false,
+            "normal": {
+              "url": "https://img2.doubanio.com/view/thing_review/l/public/p7004063.jpg",
+              "width": 600,
+              "height": 531,
+              "size": 0
+            }
+          },
+          "description": ""
+        }
+      ],
+      "reactions_count": 1,
+      "comments_count": 0,
+      "user": {
+        "kind": "user",
+        "name": "爱玩的过路人",
+        "url": "https://www.douban.com/people/200349675/",
+        "uri": "douban://douban.com/user/200349675",
+        "avatar": "https://img2.doubanio.com/icon/up200349675-1.jpg",
+        "is_club": false,
+        "type": "user",
+        "id": "200349675",
+        "uid": "200349675"
+      },
+      "create_time": "2022-02-01 19:16:44",
+      "reshares_count": 0,
+      "type": "review",
+      "id": "14193000",
+      "subject": {
+        "type": "movie",
+        "title": "法比安"
+      }
+    },
+    {
+      "rating": {
+        "count": 1,
+        "max": 5,
+        "star_count": 4,
+        "value": 4
+      },
+      "useful_count": 3,
+      "sharing_url": "https://movie.douban.com/review/14192858/",
+      "title": "要学会游泳吗？即使在你眼中污水浑浊（完全剧透，就是冲着看懂故事写的）",
+      "url": "https://movie.douban.com/review/14192858/",
+      "abstract": "要学会游泳吗？即使在你眼中污水浑浊（完全剧透，就是冲着看懂故事写的）\r\n你是否已经步入社会，有着也许成为作家、画家、音乐人等等的梦想，但不得不为了生计做着起早贪黑的工作，而你并不快乐？\r\n你是否在喧嚣的城市，等待寻找到某种完整、愉快、充实、自由的生命体验，亦或也不知道自己究竟在找寻什么？\r\n你是否不愿被污水浑浊，但又不得不深陷污浊之中？\r\n《法比安》以近似散文的方式，描述了在1931年一位带着作家梦想的年轻男人法比安试图在混浊的城市中坚持自己的体面，但最终因为“不会游泳”而注定灭亡的...",
+      "uri": "douban://douban.com/review/14192858",
+      "ad_info": null,
+      "topic": null,
+      "photos": [
+        {
+          "tag_name": "img_7020957",
+          "id": "7020957",
+          "image": {
+            "large": {
+              "url": "https://img1.doubanio.com/view/thing_review/l/public/p7020957.jpg",
+              "width": 600,
+              "height": 417,
+              "size": 0
+            },
+            "raw": null,
+            "is_animated": false,
+            "normal": {
+              "url": "https://img1.doubanio.com/view/thing_review/l/public/p7020957.jpg",
+              "width": 600,
+              "height": 417,
+              "size": 0
+            }
+          },
+          "description": ""
+        },
+        {
+          "tag_name": "img_7020958",
+          "id": "7020958",
+          "image": {
+            "large": {
+              "url": "https://img1.doubanio.com/view/thing_review/l/public/p7020958.jpg",
+              "width": 600,
+              "height": 412,
+              "size": 0
+            },
+            "raw": null,
+            "is_animated": false,
+            "normal": {
+              "url": "https://img1.doubanio.com/view/thing_review/l/public/p7020958.jpg",
+              "width": 600,
+              "height": 412,
+              "size": 0
+            }
+          },
+          "description": ""
+        },
+        {
+          "tag_name": "img_7020959",
+          "id": "7020959",
+          "image": {
+            "large": {
+              "url": "https://img1.doubanio.com/view/thing_review/l/public/p7020959.jpg",
+              "width": 600,
+              "height": 441,
+              "size": 0
+            },
+            "raw": null,
+            "is_animated": false,
+            "normal": {
+              "url": "https://img1.doubanio.com/view/thing_review/l/public/p7020959.jpg",
+              "width": 600,
+              "height": 441,
+              "size": 0
+            }
+          },
+          "description": ""
+        }
+      ],
+      "reactions_count": 1,
+      "comments_count": 0,
+      "user": {
+        "kind": "user",
+        "name": "蝴想Funtasee",
+        "url": "https://www.douban.com/people/162020687/",
+        "uri": "douban://douban.com/user/162020687",
+        "avatar": "https://img9.doubanio.com/icon/up162020687-5.jpg",
+        "is_club": false,
+        "type": "user",
+        "id": "162020687",
+        "uid": "162020687"
+      },
+      "create_time": "2022-02-04 19:14:17",
+      "reshares_count": 0,
+      "type": "review",
+      "id": "14192858",
+      "subject": {
+        "type": "movie",
+        "title": "法比安"
+      }
+    },
+    {
+      "rating": {
+        "count": 1,
+        "max": 5,
+        "star_count": 3,
+        "value": 3
+      },
+      "useful_count": 0,
+      "sharing_url": "https://movie.douban.com/review/14188866/",
+      "title": "法比安",
+      "url": "https://movie.douban.com/review/14188866/",
+      "abstract": "他的朋友-后来承认自己\"在生活和职业的课题上\"失败了-在谈到共产主义和性的时候，是个有进取心的人，而法比安却依然清醒而疏离。他等待着\"体面的胜利\"，却没有真正相信它。他对柯内莉亚的爱是唯一让他质疑自己讽刺宿命论的东西。她成了他崩溃生活中的一缕希望。尽管与今天这个被人诟病的世界有很多相似之处，但要让埃里希·凯斯特纳深沉悲凉的自传体小说《法比安》-魏玛共和国最重要的小说之一-走出阴暗的生存环境是一个挑战。多米尼克·格拉夫出色地驾驭了这一挑战。他的风格是微妙的尖锐，冷血的轻快，却又安静...",
+      "uri": "douban://douban.com/review/14188866",
+      "ad_info": null,
+      "topic": null,
+      "photos": [],
+      "reactions_count": 1,
+      "comments_count": 0,
+      "user": {
+        "kind": "user",
+        "name": "。",
+        "url": "https://www.douban.com/people/156117429/",
+        "uri": "douban://douban.com/user/156117429",
+        "avatar": "https://img2.doubanio.com/icon/up156117429-2.jpg",
+        "is_club": false,
+        "type": "user",
+        "id": "156117429",
+        "uid": "156117429"
+      },
+      "create_time": "2022-02-03 18:46:13",
+      "reshares_count": 0,
+      "type": "review",
+      "id": "14188866",
+      "subject": {
+        "type": "movie",
+        "title": "法比安"
+      }
+    },
+    {
+      "rating": {
+        "count": 1,
+        "max": 5,
+        "star_count": 3,
+        "value": 3
+      },
+      "useful_count": 2,
+      "sharing_url": "https://movie.douban.com/review/14183804/",
+      "title": "滚滚车轮 1930不需要文艺青年",
+      "url": "https://movie.douban.com/review/14183804/",
+      "abstract": "法比安 这个上世纪30 年代的文艺青年， 白天老老实实在公司上班当个平平庸庸的广告文案，夜晚则混迹在城市街道酒吧中 在昏暗的灯光下美酒美人 推杯换盏 。。。。。。富足生活 挚友八卦 庸俗八卦 美妙爱情 对文艺青年而言，此生此景 夫复何求*･゜ﾟ･*:.｡..｡.:*･'(*ﾟ▽ﾟ*)'･*:.｡. .｡.:*･゜ﾟ･*\r\n然而滚滚前行的历史车轮不允许法比安如此安逸无聊 平静或是无聊度日 ╮(￣▽￣\"\")╭ 从一日被公司辞退开始 他就被落入冷冰冰的现实生活中。。。。。与此同时，如白噪音般不时闪...",
+      "uri": "douban://douban.com/review/14183804",
+      "ad_info": null,
+      "topic": null,
+      "photos": [],
+      "reactions_count": 1,
+      "comments_count": 0,
+      "user": {
+        "kind": "user",
+        "name": "爱玩的过路人",
+        "url": "https://www.douban.com/people/200349675/",
+        "uri": "douban://douban.com/user/200349675",
+        "avatar": "https://img2.doubanio.com/icon/up200349675-1.jpg",
+        "is_club": false,
+        "type": "user",
+        "id": "200349675",
+        "uid": "200349675"
+      },
+      "create_time": "2022-02-02 08:52:20",
+      "reshares_count": 0,
+      "type": "review",
+      "id": "14183804",
+      "subject": {
+        "type": "movie",
+        "title": "法比安"
+      }
+    },
+    {
+      "rating": {
+        "count": 1,
+        "max": 5,
+        "star_count": 3,
+        "value": 3
+      },
+      "useful_count": 5,
+      "sharing_url": "https://movie.douban.com/review/14181706/",
+      "title": "朋友，这个世界还容得下体面吗？",
+      "url": "https://movie.douban.com/review/14181706/",
+      "abstract": "个人来说，不太喜欢这种文学性比较强的电影，很多桥段在小说里表达很正常，但到电影里就会感觉奇怪，另外片长3个小时，实际上是个简单的故事，结合历史背景，讲述了一个理想主义青年的生活、爱与死亡。\r\n出乎意料的是，故事本身能引起我共鸣，因为法比安身上发生的故事，就是个现在仍发生在世界各地的文青的故事，当然法比安是幸运的，他遇到了他的妙人，他的爱太美好了，他的爱人太好了，可是越是美好，法比安面对的纠结与痛苦就越彻骨，好在这家伙在结尾死了，否则法比安还会越陷越深，直到向命运妥协，或者被命...",
+      "uri": "douban://douban.com/review/14181706",
+      "ad_info": null,
+      "topic": null,
+      "photos": [],
+      "reactions_count": 1,
+      "comments_count": 0,
+      "user": {
+        "kind": "user",
+        "name": "宋星球",
+        "url": "https://www.douban.com/people/182242057/",
+        "uri": "douban://douban.com/user/182242057",
+        "avatar": "https://img9.doubanio.com/icon/up182242057-16.jpg",
+        "is_club": false,
+        "type": "user",
+        "id": "182242057",
+        "uid": "fishpoem"
+      },
+      "create_time": "2022-02-01 19:39:18",
+      "reshares_count": 0,
+      "type": "review",
+      "id": "14181706",
+      "subject": {
+        "type": "movie",
+        "title": "法比安"
+      }
+    },
+    {
+      "rating": null,
+      "useful_count": 2,
+      "sharing_url": "https://movie.douban.com/review/14177157/",
+      "title": "理想的气味",
+      "url": "https://movie.douban.com/review/14177157/",
+      "abstract": "上世纪 30 年代初的柏林有什么呢？达达主义，表现，有声诗歌，反叛，女权，机械，先锋，蒙太奇，超现实，纳粹……就丰富，胆大和有趣程度而言，大概再也不会有这样的时代了。\r\n男主角的最好朋友，家中任其生长的公子哥，忠于文学和运动，死于理想，死于烟花场所。被子弹贯穿的头颅，在墙上留下红色喷溅。红色收敛成头颅大小，像是对死亡的声明。女孩们跑上楼梯，乱哄哄把尸体扶起摆好，乱哄哄把头包扎好，乱哄哄拥抱，又乱哄哄离开，没有对死亡的恐惧和难以接受，有的只是对死亡的理解。男主角与做演员的女友澄清...",
+      "uri": "douban://douban.com/review/14177157",
+      "ad_info": null,
+      "topic": null,
+      "photos": [],
+      "reactions_count": 1,
+      "comments_count": 0,
+      "user": {
+        "kind": "user",
+        "name": "excelsior",
+        "url": "https://www.douban.com/people/81909605/",
+        "uri": "douban://douban.com/user/81909605",
+        "avatar": "https://img2.doubanio.com/icon/up81909605-31.jpg",
+        "is_club": false,
+        "type": "user",
+        "id": "81909605",
+        "uid": "anydude"
+      },
+      "create_time": "2022-01-30 11:55:59",
+      "reshares_count": 0,
+      "type": "review",
+      "id": "14177157",
+      "subject": {
+        "type": "movie",
+        "title": "法比安"
+      }
+    },
+    {
+      "rating": {
+        "count": 1,
+        "max": 5,
+        "star_count": 5,
+        "value": 5
+      },
+      "useful_count": 0,
+      "sharing_url": "https://movie.douban.com/review/14177098/",
+      "title": "一句话评论",
+      "url": "https://movie.douban.com/review/14177098/",
+      "abstract": "     小孩象征着德国，假装跳水就是选择纳粹，哗众取宠，让周围的资本主义“大人”来救\r\n     法比安就是自由文艺多愁善感缺屁用没有的魏玛共和国，心有余力不足，不会游泳要去时代的洪流中搏击。\r\n    然后有点懂了，为什么当年议会的那帮人选了袁世凯，而不是孙中山。\r\n    列强环伺，所有的既得利益者最怕的不是家奴，而是外部的群狼，有没有一个强力的人物抵御住即将到来的暴力？",
+      "uri": "douban://douban.com/review/14177098",
+      "ad_info": null,
+      "topic": null,
+      "photos": [],
+      "reactions_count": 1,
+      "comments_count": 0,
+      "user": {
+        "kind": "user",
+        "name": "亲切的陆游",
+        "url": "https://www.douban.com/people/2167803/",
+        "uri": "douban://douban.com/user/2167803",
+        "avatar": "https://img9.doubanio.com/icon/up2167803-4.jpg",
+        "is_club": false,
+        "type": "user",
+        "id": "2167803",
+        "uid": "2167803"
+      },
+      "create_time": "2022-01-30 11:18:12",
+      "reshares_count": 0,
+      "type": "review",
+      "id": "14177098",
+      "subject": {
+        "type": "movie",
+        "title": "法比安"
+      }
+    },
+    {
+      "rating": {
+        "count": 1,
+        "max": 5,
+        "star_count": 5,
+        "value": 5
+      },
+      "useful_count": 1,
+      "sharing_url": "https://movie.douban.com/review/14176302/",
+      "title": "普通人家出个文青就是家门不幸",
+      "url": "https://movie.douban.com/review/14176302/",
+      "abstract": "战后的魏玛共和国，与时代格格不入的青年，声色犬马的时代，一场荒谬，最终慢慢沉入水底。\r\n电影开场击中我心：\r\n对时代绝妙的注脚，悲剧在三个街区外发生，房东却希望能在出租屋里创造一个“体面的”世界，任何时代任何地方的中产似乎都有着同样可爱的德行：努力维持幻想，被戳破后还拒绝面对现实，当然，这是因为享有一定资产后，自然可以找到些许依托，真的很好笑。\r\n这部电影长约3小时，以至于有足够多的时间去让导演填补任何自己想要填补的要素，作为一个观者，我试图将这些要素掰扯开：与Fabian相关的内容，...",
+      "uri": "douban://douban.com/review/14176302",
+      "ad_info": null,
+      "topic": null,
+      "photos": [
+        {
+          "tag_name": "img_6996049",
+          "id": "6996049",
+          "image": {
+            "large": {
+              "url": "https://img1.doubanio.com/view/thing_review/l/public/p6996049.jpg",
+              "width": 600,
+              "height": 445,
+              "size": 0
+            },
+            "raw": null,
+            "is_animated": false,
+            "normal": {
+              "url": "https://img1.doubanio.com/view/thing_review/l/public/p6996049.jpg",
+              "width": 600,
+              "height": 445,
+              "size": 0
+            }
+          },
+          "description": ""
+        },
+        {
+          "tag_name": "img_6996298",
+          "id": "6996298",
+          "image": {
+            "large": {
+              "url": "https://img1.doubanio.com/view/thing_review/l/public/p6996298.jpg",
+              "width": 600,
+              "height": 465,
+              "size": 0
+            },
+            "raw": null,
+            "is_animated": false,
+            "normal": {
+              "url": "https://img1.doubanio.com/view/thing_review/l/public/p6996298.jpg",
+              "width": 600,
+              "height": 465,
+              "size": 0
+            }
+          },
+          "description": ""
+        },
+        {
+          "tag_name": "img_6996297",
+          "id": "6996297",
+          "image": {
+            "large": {
+              "url": "https://img1.doubanio.com/view/thing_review/l/public/p6996297.jpg",
+              "width": 600,
+              "height": 438,
+              "size": 0
+            },
+            "raw": null,
+            "is_animated": false,
+            "normal": {
+              "url": "https://img1.doubanio.com/view/thing_review/l/public/p6996297.jpg",
+              "width": 600,
+              "height": 438,
+              "size": 0
+            }
+          },
+          "description": ""
+        }
+      ],
+      "reactions_count": 1,
+      "comments_count": 2,
+      "user": {
+        "kind": "user",
+        "name": "Kitsch_",
+        "url": "https://www.douban.com/people/252770761/",
+        "uri": "douban://douban.com/user/252770761",
+        "avatar": "https://img2.doubanio.com/icon/up252770761-3.jpg",
+        "is_club": false,
+        "type": "user",
+        "id": "252770761",
+        "uid": "252770761"
+      },
+      "create_time": "2022-01-29 21:52:04",
+      "reshares_count": 0,
+      "type": "review",
+      "id": "14176302",
+      "subject": {
+        "type": "movie",
+        "title": "法比安"
+      }
+    },
+    {
+      "rating": {
+        "count": 1,
+        "max": 5,
+        "star_count": 5,
+        "value": 5
+      },
+      "useful_count": 7,
+      "sharing_url": "https://movie.douban.com/review/14172318/",
+      "title": "我在劝告你，理想主义者！",
+      "url": "https://movie.douban.com/review/14172318/",
+      "abstract": "  这部电影相当致郁系，一开始法比安在柏林声色犬马、寻欢作乐。他虽然是个文学博士，只能在报社工作，而且还被老板以他只适合做文学不适合办实事为理由辞退。他的好友拉布德在读文学理论的博士后。我想在1930年代这样的两个人应该算是高级知识分子了。在战后灰色的社会大环境里，大部分人失业，得过且过，淫乱不堪，因为生活的困顿和战争带来的恐惧迷失了自己的精神世界。而法比安和拉布德，我觉得是这部电影里唯一两个理想主义者。拉布德家境优渥，却因为自己的精神洁癖忍受不了未婚妻的背叛，爱她却不能接受他...",
+      "uri": "douban://douban.com/review/14172318",
+      "ad_info": null,
+      "topic": null,
+      "photos": [],
+      "reactions_count": 1,
+      "comments_count": 0,
+      "user": {
+        "kind": "user",
+        "name": "Doloris Lu",
+        "url": "https://www.douban.com/people/80468768/",
+        "uri": "douban://douban.com/user/80468768",
+        "avatar": "https://img9.doubanio.com/icon/up80468768-6.jpg",
+        "is_club": false,
+        "type": "user",
+        "id": "80468768",
+        "uid": "LLW1113"
+      },
+      "create_time": "2022-01-27 23:06:42",
+      "reshares_count": 0,
+      "type": "review",
+      "id": "14172318",
+      "subject": {
+        "type": "movie",
+        "title": "法比安"
+      }
+    },
+    {
+      "rating": {
+        "count": 1,
+        "max": 5,
+        "star_count": 5,
+        "value": 5
+      },
+      "useful_count": 0,
+      "sharing_url": "https://movie.douban.com/review/14164061/",
+      "title": "人生底色本是灰暗",
+      "url": "https://movie.douban.com/review/14164061/",
+      "abstract": "看完这个电影久久不能平静，虽然说的是1931年的德国，用来类比疫情笼罩下的当下情况也不过分。这是一步文艺气息浓重并掺杂了历史上的当时新闻报道，回忆想象夹杂(穿叉蒙太奇)使影片把观众在现实，历史，故事之间来回拉扯，却仍然顺着情节向前推进。主人公法比安善良，真诚，有原则，有理想有追求，有怜悯同情心。就是这样的一个本性美好的人生活在灰暗的历史背景战争，社会凋敝，住在公寓，混乱，怪诞，嘈杂的日子里也遇到了各种各样的人。当他遇到爱情时却无力对抗经济窘迫的现实，女友离他而去为了追求自己的事...",
+      "uri": "douban://douban.com/review/14164061",
+      "ad_info": null,
+      "topic": null,
+      "photos": [],
+      "reactions_count": 1,
+      "comments_count": 0,
+      "user": {
+        "kind": "user",
+        "name": "等风来",
+        "url": "https://www.douban.com/people/49506483/",
+        "uri": "douban://douban.com/user/49506483",
+        "avatar": "https://img2.doubanio.com/icon/up49506483-52.jpg",
+        "is_club": false,
+        "type": "user",
+        "id": "49506483",
+        "uid": "Ricebagwelcome"
+      },
+      "create_time": "2022-01-24 12:31:30",
+      "reshares_count": 0,
+      "type": "review",
+      "id": "14164061",
+      "subject": {
+        "type": "movie",
+        "title": "法比安"
+      }
+    },
+    {
+      "rating": {
+        "count": 1,
+        "max": 5,
+        "star_count": 5,
+        "value": 5
+      },
+      "useful_count": 1,
+      "sharing_url": "https://movie.douban.com/review/14162759/",
+      "title": "1931-2021",
+      "url": "https://movie.douban.com/review/14162759/",
+      "abstract": "\"Die Welt steht Kopf, moralische Normen haben ihre Gültigkeit verloren, politische Extreme befehden einander - und inmitten dieses Durcheinanders steht Fabian, der Moralist, als Beobachter und studiert das Leben: möblierte Zimmer, Arbeitslose, gewisse Damen und dazugehörige Etablissements, Bars, Gigolos, die Liebe und die Verlogenheit der Menschheit.\"\r\n借魏玛世代控诉当下社会，90年过去，人性和疯狂依旧。法比安消失在河水中，就像勃鲁盖尔油画里坠落的伊卡洛斯。哪怕在这之...",
+      "uri": "douban://douban.com/review/14162759",
+      "ad_info": null,
+      "topic": null,
+      "photos": [],
+      "reactions_count": 1,
+      "comments_count": 0,
+      "user": {
+        "kind": "user",
+        "name": "circularruins",
+        "url": "https://www.douban.com/people/181906843/",
+        "uri": "douban://douban.com/user/181906843",
+        "avatar": "https://img2.doubanio.com/icon/up181906843-13.jpg",
+        "is_club": false,
+        "type": "user",
+        "id": "181906843",
+        "uid": "181906843"
+      },
+      "create_time": "2022-01-24 04:42:10",
+      "reshares_count": 1,
+      "type": "review",
+      "id": "14162759",
+      "subject": {
+        "type": "movie",
+        "title": "法比安"
+      }
+    },
+    {
+      "rating": {
+        "count": 1,
+        "max": 5,
+        "star_count": 5,
+        "value": 5
+      },
+      "useful_count": 1,
+      "sharing_url": "https://movie.douban.com/review/14159610/",
+      "title": "文人的绝望就是这个世界的绝望",
+      "url": "https://movie.douban.com/review/14159610/",
+      "abstract": "《法比安》，五星。很久没有看过这样的片子了。绝望到窒息。纳粹上台前两年的德国，文学博士、电影演员、画家、皮条客、酒吧表演者……，众生像。一个对毁灭和被毁灭最敏感的群体。失业，失去爱人，最好的朋友自杀，最后还在奔向希望的路上死于一场自找的意外。人生如果这样残酷，活着的意义是什么呢？是奔向毁灭吗？如果可以避免，我们可以做些什么呢？其实，什么都做不了，因为这就是最易被毁灭的类型，这是文人的硬伤，更是导演的悲伤。如果没有了文人，这世界会好吗？导演实在是太绝望了，透过屏幕都可以感受...",
+      "uri": "douban://douban.com/review/14159610",
+      "ad_info": null,
+      "topic": null,
+      "photos": [],
+      "reactions_count": 1,
+      "comments_count": 5,
+      "user": {
+        "kind": "user",
+        "name": "namelessendless",
+        "url": "https://www.douban.com/people/149171420/",
+        "uri": "douban://douban.com/user/149171420",
+        "avatar": "https://img2.doubanio.com/icon/up149171420-1.jpg",
+        "is_club": false,
+        "type": "user",
+        "id": "149171420",
+        "uid": "149171420"
+      },
+      "create_time": "2022-01-22 21:58:42",
+      "reshares_count": 0,
+      "type": "review",
+      "id": "14159610",
+      "subject": {
+        "type": "movie",
+        "title": "法比安"
+      }
+    },
+    {
+      "rating": {
+        "count": 1,
+        "max": 5,
+        "star_count": 4,
+        "value": 4
+      },
+      "useful_count": 2,
+      "sharing_url": "https://movie.douban.com/review/14157060/",
+      "title": "都是我编的",
+      "url": "https://movie.douban.com/review/14157060/",
+      "abstract": "小张21岁。两个孩子，现在在湘潭跑快车。他在中专毕业后和自己的同学结婚。在昆山当了两年厂工觉得太辛苦……\r\n小王24岁。郑州某房屋中介二级销售。高中毕业考上民办大专但家里掏不起学费。打工辗转多地来到省城。\r\n小李29岁。成都某酒吧驻唱。本科声乐专业毕业。年少无知被骗，曾参加某歌唱类节目第二轮被淘汰。\r\n小刘32岁。上海某著名带货大咖公司创意总监。211硕士研究生。4k一月的合租间最近再考虑换。\r\n小赵39。东北人北漂多年，在百子湾开了家小酒吧，因为疫情维持不下。还好在成都买过房，目前考虑转型为沈...",
+      "uri": "douban://douban.com/review/14157060",
+      "ad_info": null,
+      "topic": null,
+      "photos": [],
+      "reactions_count": 1,
+      "comments_count": 0,
+      "user": {
+        "kind": "user",
+        "name": "哼哼.floweray",
+        "url": "https://www.douban.com/people/56922790/",
+        "uri": "douban://douban.com/user/56922790",
+        "avatar": "https://img1.doubanio.com/icon/up56922790-58.jpg",
+        "is_club": false,
+        "type": "user",
+        "id": "56922790",
+        "uid": "56922790"
+      },
+      "create_time": "2022-01-21 20:16:29",
+      "reshares_count": 0,
+      "type": "review",
+      "id": "14157060",
+      "subject": {
+        "type": "movie",
+        "title": "法比安"
+      }
+    }
+  ]
+}

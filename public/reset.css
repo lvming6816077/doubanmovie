@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+html { color: #111; background: #fff }
+body, div, dl, dt, dd, ul, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, blockquote { margin: 0; padding: 0 }
+table { border-collapse: collapse; border-spacing: 0 }
+fieldset, img { border: 0 }
+address, caption, cite, code, dfn, em, i, strong, th, var, optgroup { font-style:normal;font-weight:normal; }
+ul, ol { list-style: none }
+caption, th { text-align: left }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal }
+q:before, q:after { content:""; }
+abbr, acronym { border: 0; font-variant: normal }
+sup { vertical-align: baseline }
+sub { vertical-align: baseline }
+legend { color: #000 }
+input, button, textarea, select, optgroup, option { font-family: inherit; font-size: inherit; font-style: inherit; font-weight: inherit }
+input, button, textarea, select { *font-size: 100% }
+pre { white-space:pre-wrap; word-wrap: break-word; }
+a{cursor:pointer}
+a:link { color: #37a; text-decoration: none; }
+a:visited { color: #669; text-decoration: none; }
+a:hover { color: #fff; text-decoration: none; background: #37a; }
+a:active { color: #fff; text-decoration: none; background: #f93; }
+a img { border-width:0;vertical-align:middle; }
+body,td,th { font: 12px Helvetica,Arial,sans-serif; line-height: 1.62; }
+table { border-collapse:collapse; border: none; padding: 0; margin: 0; }
+
+wbr:after { content: "\00200B" }
+
+textarea { resize: none }
+input[type=text]:focus,
+input[type=password]:focus,
+textarea:focus { outline:none; }
+
+
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden }
+.clearfix { zoom: 1; display: inline-block; _height: 1px }
+* html .clearfix { height: 1% }
+*+html .clearfix { height: 1% }
+.clearfix { display: block }
+.clearfloat { display: inline-block; *display:inline; *zoom:1; }
+
+.one-line { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.three-line { overflow: hidden; display: -webkit-box; -webkit-line-clamp: 3; text-overflow: ellipsis; -webkit-box-orient: vertical; }
+.two-line { overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; text-overflow: ellipsis; -webkit-box-orient: vertical; }

@@ -1,0 +1,189 @@
+{
+  "directors": [
+    {
+      "user": null,
+      "roles": [
+        "导演",
+        "编剧",
+        "音乐",
+        "演员"
+      ],
+      "latin_name": "Dominik Graf",
+      "author": null,
+      "url": "https://movie.douban.com/celebrity/1050601/",
+      "abstract": "1952年出生于德国慕尼黑，1974年至1980年就读于该市的电影电视大学（HFF）。在他的导演和编剧生涯中，他...",
+      "title": "多米尼克·格拉夫（同名）德国,巴伐利亚,慕尼黑影视演员",
+      "character": "导演",
+      "uri": "douban://douban.com/celebrity/1050601?subject_id=27256364",
+      "cover_url": "https://img9.doubanio.com/view/celebrity/raw/public/p21604.jpg",
+      "avatar": {
+        "large": "https://img9.doubanio.com/view/celebrity/raw/public/p21604.jpg",
+        "normal": "https://img9.doubanio.com/view/celebrity/raw/public/p21604.jpg"
+      },
+      "sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/celebrity/1050601/",
+      "type": "celebrity",
+      "id": "1050601",
+      "name": "多米尼克·格拉夫"
+    }
+  ],
+  "total": 10,
+  "actors": [
+    {
+      "user": null,
+      "roles": [
+        "演员",
+        "制片人",
+        "摄影"
+      ],
+      "latin_name": "Tom Schilling",
+      "author": null,
+      "url": "https://movie.douban.com/celebrity/1005071/",
+      "abstract": "1982年出生於德國柏林的湯姆西林，12歲時開始了他舞台劇的演出。他的電影初體驗是在14歲，接下來湯姆西...",
+      "title": "汤姆·希林（同名）德国,柏林影视演员",
+      "character": "饰 Dr. Jakob Fabian",
+      "uri": "douban://douban.com/celebrity/1005071?subject_id=27210762",
+      "cover_url": "https://img1.doubanio.com/view/celebrity/raw/public/p1431515596.37.jpg",
+      "avatar": {
+        "large": "https://img1.doubanio.com/view/celebrity/raw/public/p1431515596.37.jpg",
+        "normal": "https://img1.doubanio.com/view/celebrity/raw/public/p1431515596.37.jpg"
+      },
+      "sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/celebrity/1005071/",
+      "type": "celebrity",
+      "id": "1005071",
+      "name": "汤姆·希林"
+    },
+    {
+      "user": null,
+      "roles": [
+        "演员"
+      ],
+      "latin_name": "Saskia Rosendahl",
+      "author": null,
+      "url": "https://movie.douban.com/celebrity/1323645/",
+      "abstract": "莎斯琪亚·罗森道尔出生于萨克森 - 安哈尔特的哈勒（萨勒），父母来自前德意志民主共和国。莎斯琪亚·罗...",
+      "title": "莎斯琪亚·罗森道尔（同名）德国,Saxony-Anhalt,Halle影视演员",
+      "character": "饰 Cornelia Battenberg",
+      "uri": "douban://douban.com/celebrity/1323645?subject_id=27502156",
+      "cover_url": "https://img1.doubanio.com/view/celebrity/raw/public/p1623320170.07.jpg",
+      "avatar": {
+        "large": "https://img1.doubanio.com/view/celebrity/raw/public/p1623320170.07.jpg",
+        "normal": "https://img1.doubanio.com/view/celebrity/raw/public/p1623320170.07.jpg"
+      },
+      "sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/celebrity/1323645/",
+      "type": "celebrity",
+      "id": "1323645",
+      "name": "莎斯琪亚·罗森道尔"
+    },
+    {
+      "user": null,
+      "roles": [
+        "演员"
+      ],
+      "latin_name": "Albrecht Schuch",
+      "author": null,
+      "url": "https://movie.douban.com/celebrity/1376138/",
+      "abstract": "阿尔布雷希特·舒赫是一位德国演员，1985年生于前东德的耶拿市，2006年进入历史悠久的莱比锡门德尔松音...",
+      "title": "阿尔布雷希特·舒赫（同名）民主德国,耶拿影视演员",
+      "character": "饰 Stephan Labude",
+      "uri": "douban://douban.com/celebrity/1376138?subject_id=27585441",
+      "cover_url": "https://img2.doubanio.com/view/celebrity/raw/public/p1498545114.02.jpg",
+      "avatar": {
+        "large": "https://img2.doubanio.com/view/celebrity/raw/public/p1498545114.02.jpg",
+        "normal": "https://img2.doubanio.com/view/celebrity/raw/public/p1498545114.02.jpg"
+      },
+      "sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/celebrity/1376138/",
+      "type": "celebrity",
+      "id": "1376138",
+      "name": "阿尔布雷希特·舒赫"
+    },
+    {
+      "user": null,
+      "roles": [
+        "演员",
+        "音乐"
+      ],
+      "latin_name": "Meret Becker",
+      "author": null,
+      "url": "https://movie.douban.com/celebrity/1016808/",
+      "abstract": "",
+      "title": "梅雷特·贝克尔（同名）德国,不来梅影视演员",
+      "character": "饰 Irene Moll",
+      "uri": "douban://douban.com/celebrity/1016808?subject_id=27222531",
+      "cover_url": "https://img2.doubanio.com/view/celebrity/raw/public/p1405523400.62.jpg",
+      "avatar": {
+        "large": "https://img2.doubanio.com/view/celebrity/raw/public/p1405523400.62.jpg",
+        "normal": "https://img2.doubanio.com/view/celebrity/raw/public/p1405523400.62.jpg"
+      },
+      "sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/celebrity/1016808/",
+      "type": "celebrity",
+      "id": "1016808",
+      "name": "梅雷特·贝克尔"
+    },
+    {
+      "user": null,
+      "roles": [
+        "演员"
+      ],
+      "latin_name": "Michael Wittenborn",
+      "author": null,
+      "url": "https://movie.douban.com/celebrity/1163874/",
+      "abstract": "",
+      "title": "米夏埃尔·维滕博恩（同名）德国,比勒费尔德影视演员",
+      "character": "饰 Judicial Council Labude",
+      "uri": "douban://douban.com/celebrity/1163874?subject_id=27369766",
+      "cover_url": "https://img2.doubanio.com/view/celebrity/raw/public/p1482118643.61.jpg",
+      "avatar": {
+        "large": "https://img2.doubanio.com/view/celebrity/raw/public/p1482118643.61.jpg",
+        "normal": "https://img2.doubanio.com/view/celebrity/raw/public/p1482118643.61.jpg"
+      },
+      "sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/celebrity/1163874/",
+      "type": "celebrity",
+      "id": "1163874",
+      "name": "米夏埃尔·维滕博恩"
+    },
+    {
+      "user": null,
+      "roles": [
+        "演员"
+      ],
+      "latin_name": "Anne Bennent",
+      "author": null,
+      "url": "https://movie.douban.com/celebrity/1061175/",
+      "abstract": "",
+      "title": "安妮·贝南特（同名）瑞士,洛桑影视演员",
+      "character": "饰 Baroness Ruth Reiter",
+      "uri": "douban://douban.com/celebrity/1061175?subject_id=27266913",
+      "cover_url": "https://img2.doubanio.com/view/celebrity/raw/public/p1382015256.21.jpg",
+      "avatar": {
+        "large": "https://img2.doubanio.com/view/celebrity/raw/public/p1382015256.21.jpg",
+        "normal": "https://img2.doubanio.com/view/celebrity/raw/public/p1382015256.21.jpg"
+      },
+      "sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/celebrity/1061175/",
+      "type": "celebrity",
+      "id": "1061175",
+      "name": "安妮·贝南特"
+    },
+    {
+      "user": null,
+      "roles": [
+        "演员"
+      ],
+      "latin_name": "",
+      "author": null,
+      "url": "https://movie.douban.com/celebrity/1079308/",
+      "abstract": "",
+      "title": "Thomas Dehler（同名）德国,阿尔滕堡影视演员",
+      "character": "饰 Detective Inspector Donath",
+      "uri": "douban://douban.com/celebrity/1079308?subject_id=27285066",
+      "cover_url": "https://img1.doubanio.com/f/movie/8dd0c794499fe925ae2ae89ee30cd225750457b4/pics/movie/celebrity-default-medium.png",
+      "avatar": {
+        "large": "https://img2.doubanio.com/f/movie/63acc16ca6309ef191f0378faf793d1096a3e606/pics/movie/celebrity-default-large.png",
+        "normal": "https://img1.doubanio.com/f/movie/8dd0c794499fe925ae2ae89ee30cd225750457b4/pics/movie/celebrity-default-medium.png"
+      },
+      "sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/celebrity/1079308/",
+      "type": "celebrity",
+      "id": "1079308",
+      "name": "Thomas Dehler"
+    }
+  ]
+}

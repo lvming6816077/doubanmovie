@@ -1,0 +1,28 @@
+{
+  "name": "douban",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "mitt": "^1.2.0",
+    "moment": "^2.29.1",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.11",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "axios": "^0.25.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0",
+    "less": "^4.1.2",
+    "less-loader": "^7.3.0",
+    "@vitejs/plugin-vue": "^1.9.3",
+    "vite": "^2.6.4"
+  }
+}

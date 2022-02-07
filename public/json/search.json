@@ -1,0 +1,534 @@
+{
+  "count": 20,
+  "items": [
+    {
+      "type_name": "豆列",
+      "layout": "doulist_cards",
+      "target": {
+        "doulists": [
+          {
+            "title": "高分经典战争片榜",
+            "is_badge_chart": false,
+            "uri": "douban://douban.com/subject_collection/film_genre_45?type=rank&category=movie&rank_type=film_genre",
+            "cover_url": "https://qnmob3.doubanio.com/dae/frodo/img_handler/chart_cover/film_genre_45/round_rec?imageView2/0/q/80/w/9999/h/120/format/jpg",
+            "target_type": "ranklist",
+            "card_subtitle": "10262 人关注",
+            "is_official": false,
+            "id": "film_genre_45",
+            "image_label": "片单"
+          },
+          {
+            "title": "冷门佳作战争片榜",
+            "is_badge_chart": false,
+            "uri": "douban://douban.com/subject_collection/ECGEOIWRA?type=rank&category=movie&rank_type=film_genre",
+            "cover_url": "https://qnmob3.doubanio.com/dae/frodo/img_handler/chart_cover/ECGEOIWRA/round_rec?imageView2/0/q/80/w/9999/h/120/format/jpg",
+            "target_type": "ranklist",
+            "card_subtitle": "6355 人关注",
+            "is_official": false,
+            "id": "ECGEOIWRA",
+            "image_label": "片单"
+          },
+          {
+            "title": "俄罗斯战争片榜",
+            "is_badge_chart": false,
+            "uri": "douban://douban.com/subject_collection/ECF4OMYDQ?type=rank&category=movie&rank_type=film_genre",
+            "cover_url": "https://qnmob3.doubanio.com/dae/frodo/img_handler/chart_cover/ECF4OMYDQ/round_rec?imageView2/0/q/80/w/9999/h/120/format/jpg",
+            "target_type": "ranklist",
+            "card_subtitle": "3674 人关注",
+            "is_official": false,
+            "id": "ECF4OMYDQ",
+            "image_label": "片单"
+          },
+          {
+            "title": "高分二战电影榜",
+            "is_badge_chart": false,
+            "uri": "douban://douban.com/subject_collection/ECCYPOAMI?type=rank&category=movie&rank_type=film_genre",
+            "cover_url": "https://qnmob3.doubanio.com/dae/frodo/img_handler/chart_cover/ECCYPOAMI/round_rec?imageView2/0/q/80/w/9999/h/120/format/jpg",
+            "target_type": "ranklist",
+            "card_subtitle": "11359 人关注",
+            "is_official": false,
+            "id": "ECCYPOAMI",
+            "image_label": "片单"
+          },
+          {
+            "title": "美国战争片榜",
+            "is_badge_chart": false,
+            "uri": "douban://douban.com/subject_collection/ECDYONLLI?type=rank&category=movie&rank_type=film_genre",
+            "cover_url": "https://qnmob3.doubanio.com/dae/frodo/img_handler/chart_cover/ECDYONLLI/round_rec?imageView2/0/q/80/w/9999/h/120/format/jpg",
+            "target_type": "ranklist",
+            "card_subtitle": "2958 人关注",
+            "is_official": false,
+            "id": "ECDYONLLI",
+            "image_label": "片单"
+          },
+          {
+            "title": "德国战争片榜",
+            "is_badge_chart": false,
+            "uri": "douban://douban.com/subject_collection/ECV4OGCIA?type=rank&category=movie&rank_type=film_genre",
+            "cover_url": "https://qnmob3.doubanio.com/dae/frodo/img_handler/chart_cover/ECV4OGCIA/round_rec?imageView2/0/q/80/w/9999/h/120/format/jpg",
+            "target_type": "ranklist",
+            "card_subtitle": "2778 人关注",
+            "is_official": false,
+            "id": "ECV4OGCIA",
+            "image_label": "片单"
+          }
+        ]
+      },
+      "target_type": "doulist_cards"
+    },
+    {
+      "type_name": "电影",
+      "layout": "subject",
+      "target": {
+        "rating": {
+          "count": 318315,
+          "max": 10,
+          "star_count": 4.5,
+          "value": 8.7
+        },
+        "controversy_reason": "",
+        "title": "战争之王",
+        "abstract": "",
+        "has_linewatch": true,
+        "uri": "douban://douban.com/movie/1419936",
+        "cover_url": "https://qnmob3.doubanio.com/view/photo/large/public/p792282381.jpg?imageView2/0/q/80/w/9999/h/120/format/jpg",
+        "year": "2005",
+        "card_subtitle": "8.7分 / 2005 / 法国 德国 美国 / 剧情 犯罪 / 安德鲁·尼科尔 / 尼古拉斯·凯奇 布丽姬·穆娜",
+        "id": "1419936",
+        "null_rating_reason": ""
+      },
+      "target_type": "movie"
+    },
+    {
+      "type_name": "电影",
+      "layout": "subject",
+      "target": {
+        "rating": {
+          "count": 10064,
+          "max": 10,
+          "star_count": 4.5,
+          "value": 9.2
+        },
+        "controversy_reason": "",
+        "title": "战争与和平",
+        "abstract": "",
+        "has_linewatch": true,
+        "uri": "douban://douban.com/movie/1307067",
+        "cover_url": "https://qnmob3.doubanio.com/view/photo/large/public/p2548048318.jpg?imageView2/0/q/80/w/9999/h/120/format/jpg",
+        "year": "1966",
+        "card_subtitle": "9.2分 / 1966 / 苏联 / 剧情 历史 爱情 / 谢尔盖·邦达尔丘克 / 谢尔盖·邦达尔丘克 柳德米拉·萨维里耶娃",
+        "id": "1307067",
+        "null_rating_reason": ""
+      },
+      "target_type": "movie"
+    },
+    {
+      "type_name": "电影",
+      "layout": "subject",
+      "target": {
+        "rating": {
+          "count": 15383,
+          "max": 10,
+          "star_count": 3.5,
+          "value": 6.7
+        },
+        "controversy_reason": "",
+        "title": "战争幽灵",
+        "abstract": "",
+        "has_linewatch": false,
+        "uri": "douban://douban.com/movie/26969541",
+        "cover_url": "https://qnmob3.doubanio.com/view/photo/large/public/p2559277527.jpg?imageView2/0/q/80/w/9999/h/120/format/jpg",
+        "year": "2020",
+        "card_subtitle": "6.7分 / 2020 / 英国 / 战争 惊悚 恐怖 / 埃里克·布雷斯 / 布伦顿·思韦茨 西奥·罗西",
+        "id": "26969541",
+        "null_rating_reason": ""
+      },
+      "target_type": "movie"
+    },
+    {
+      "type_name": "电视剧",
+      "layout": "subject",
+      "target": {
+        "rating": {
+          "count": 13214,
+          "max": 10,
+          "star_count": 4,
+          "value": 8.4
+        },
+        "controversy_reason": "",
+        "title": "战争与和平",
+        "abstract": "",
+        "has_linewatch": true,
+        "uri": "douban://douban.com/tv/26291803",
+        "cover_url": "https://qnmob3.doubanio.com/view/photo/large/public/p2290728429.jpg?imageView2/0/q/80/w/9999/h/120/format/jpg",
+        "year": "2016",
+        "card_subtitle": "8.4分 / 2016 / 美国 英国 / 剧情 历史 爱情 / 汤姆·哈伯 / 保罗·达诺 莉莉·詹姆斯",
+        "id": "26291803",
+        "null_rating_reason": ""
+      },
+      "target_type": "tv"
+    },
+    {
+      "type_name": "电影",
+      "layout": "subject",
+      "target": {
+        "rating": {
+          "count": 9321,
+          "max": 10,
+          "star_count": 4,
+          "value": 7.6
+        },
+        "controversy_reason": "",
+        "title": "战争与和平",
+        "abstract": "",
+        "has_linewatch": true,
+        "uri": "douban://douban.com/movie/1297759",
+        "cover_url": "https://qnmob3.doubanio.com/view/photo/large/public/p2125200529.jpg?imageView2/0/q/80/w/9999/h/120/format/jpg",
+        "year": "1956",
+        "card_subtitle": "7.6分 / 1956 / 意大利 美国 / 剧情 爱情 战争 / 金·维多 / 奥黛丽·赫本 亨利·方达",
+        "id": "1297759",
+        "null_rating_reason": ""
+      },
+      "target_type": "movie"
+    },
+    {
+      "type_name": "电影",
+      "layout": "subject",
+      "target": {
+        "rating": {
+          "count": 3485,
+          "max": 10,
+          "star_count": 4,
+          "value": 7.8
+        },
+        "controversy_reason": "",
+        "title": "战争天堂",
+        "abstract": "",
+        "has_linewatch": true,
+        "uri": "douban://douban.com/movie/26649041",
+        "cover_url": "https://qnmob3.doubanio.com/view/photo/large/public/p2443633311.jpg?imageView2/0/q/80/w/9999/h/120/format/jpg",
+        "year": "2016",
+        "card_subtitle": "7.8分 / 2016 / 俄罗斯 德国 / 剧情 战争 / 安德烈·康查洛夫斯基 / 朱莉娅·维斯托斯卡亚 彼得·库尔特",
+        "id": "26649041",
+        "null_rating_reason": ""
+      },
+      "target_type": "movie"
+    },
+    {
+      "type_name": "电影",
+      "layout": "subject",
+      "target": {
+        "rating": {
+          "count": 3236,
+          "max": 10,
+          "star_count": 4.5,
+          "value": 8.7
+        },
+        "controversy_reason": "",
+        "title": "战争子午线",
+        "abstract": "",
+        "has_linewatch": false,
+        "uri": "douban://douban.com/movie/1464535",
+        "cover_url": "https://qnmob3.doubanio.com/view/photo/large/public/p2517655851.jpg?imageView2/0/q/80/w/9999/h/120/format/jpg",
+        "year": "1990",
+        "card_subtitle": "8.7分 / 1990 / 中国大陆 / 剧情 战争 / 冯小宁 / 富大龙 沈丹萍",
+        "id": "1464535",
+        "null_rating_reason": ""
+      },
+      "target_type": "movie"
+    },
+    {
+      "type_name": "电影",
+      "layout": "subject",
+      "target": {
+        "rating": {
+          "count": 2074,
+          "max": 10,
+          "star_count": 4.5,
+          "value": 9.2
+        },
+        "controversy_reason": "",
+        "title": "战争与和平1：安德烈·博尔孔斯基",
+        "abstract": "",
+        "has_linewatch": false,
+        "uri": "douban://douban.com/movie/1298257",
+        "cover_url": "https://qnmob3.doubanio.com/view/photo/large/public/p2635630283.jpg?imageView2/0/q/80/w/9999/h/120/format/jpg",
+        "year": "1965",
+        "card_subtitle": "9.2分 / 1965 / 苏联 / 剧情 历史 战争 / 谢尔盖·邦达尔丘克 / Ludmila Savelyeva Sergey Bondarchuk",
+        "id": "1298257",
+        "null_rating_reason": ""
+      },
+      "target_type": "movie"
+    },
+    {
+      "type_name": "游戏",
+      "layout": "subject",
+      "target": {
+        "rating": {
+          "count": 774,
+          "max": 10,
+          "star_count": 4.5,
+          "value": 8.7
+        },
+        "controversy_reason": "",
+        "title": "战争雷霆 War Thunder",
+        "abstract": "",
+        "uri": "douban://douban.com/game/22252907",
+        "cover_url": "https://img3.doubanio.com/mpic/s26381950.jpg",
+        "card_subtitle": "8.7分 / World of Planes/魔法雷霆/飞行模拟/动作/大型多人在线/PC/Mac/PlayStation 4/Gaijin Entertainment/2013-06-30",
+        "id": "22252907",
+        "null_rating_reason": ""
+      },
+      "target_type": "game"
+    },
+    {
+      "type_name": "游戏",
+      "layout": "subject",
+      "target": {
+        "rating": {
+          "count": 941,
+          "max": 10,
+          "star_count": 4,
+          "value": 8
+        },
+        "controversy_reason": "",
+        "title": "战争机器5 Gears 5",
+        "abstract": "",
+        "uri": "douban://douban.com/game/27089714",
+        "cover_url": "https://img1.doubanio.com/mpic/s33487269.jpg",
+        "card_subtitle": "8.0分 / Gears of War 5/射击/动作/PC/Xbox One/Xbox Series X/2019-09-10",
+        "id": "27089714",
+        "null_rating_reason": ""
+      },
+      "target_type": "game"
+    },
+    {
+      "type_name": "电影",
+      "layout": "subject",
+      "target": {
+        "rating": {
+          "count": 494,
+          "max": 10,
+          "star_count": 4,
+          "value": 7.9
+        },
+        "controversy_reason": "",
+        "title": "战争与人",
+        "abstract": "",
+        "has_linewatch": false,
+        "uri": "douban://douban.com/movie/1578548",
+        "cover_url": "https://qnmob3.doubanio.com/view/photo/large/public/p2763164794.jpg?imageView2/0/q/80/w/9999/h/120/format/jpg",
+        "year": "1970",
+        "card_subtitle": "7.9分 / 1970 / 日本 / 动作 战争 / 山本萨夫 / 泷泽修 芦田伸介",
+        "id": "1578548",
+        "null_rating_reason": ""
+      },
+      "target_type": "movie"
+    },
+    {
+      "type_name": "电影",
+      "layout": "subject",
+      "target": {
+        "rating": {
+          "count": 1779,
+          "max": 10,
+          "star_count": 4.5,
+          "value": 9.2
+        },
+        "controversy_reason": "",
+        "title": "战争与和平3：1812年",
+        "abstract": "",
+        "has_linewatch": false,
+        "uri": "douban://douban.com/movie/1303079",
+        "cover_url": "https://qnmob3.doubanio.com/view/photo/large/public/p2635630426.jpg?imageView2/0/q/80/w/9999/h/120/format/jpg",
+        "year": "1967",
+        "card_subtitle": "9.2分 / 1967 / 苏联 / 剧情 历史 战争 / 谢尔盖·邦达尔丘克 / Sergey Bondarchuk Vyacheslav Tikhonov",
+        "id": "1303079",
+        "null_rating_reason": ""
+      },
+      "target_type": "movie"
+    },
+    {
+      "type_name": "游戏",
+      "layout": "subject",
+      "target": {
+        "rating": {
+          "count": 1408,
+          "max": 10,
+          "star_count": 4,
+          "value": 8.2
+        },
+        "controversy_reason": "",
+        "title": "星际战甲 Warframe",
+        "abstract": "",
+        "uri": "douban://douban.com/game/26320328",
+        "cover_url": "https://img2.doubanio.com/mpic/s28002103.jpg",
+        "card_subtitle": "8.2分 / 战争框架/大型多人在线/射击/动作/PC/PlayStation 4/Xbox One/Nintendo Switch/Digital Extremes/2013-03-25",
+        "id": "26320328",
+        "null_rating_reason": ""
+      },
+      "target_type": "game"
+    },
+    {
+      "type_name": "电影",
+      "layout": "subject",
+      "target": {
+        "rating": {
+          "count": 1856,
+          "max": 10,
+          "star_count": 4.5,
+          "value": 9.1
+        },
+        "controversy_reason": "",
+        "title": "战争与和平2：娜塔莎·罗斯托娃",
+        "abstract": "",
+        "has_linewatch": false,
+        "uri": "douban://douban.com/movie/1303712",
+        "cover_url": "https://qnmob3.doubanio.com/view/photo/large/public/p2598417785.jpg?imageView2/0/q/80/w/9999/h/120/format/jpg",
+        "year": "1966",
+        "card_subtitle": "9.1分 / 1966 / 苏联 / 剧情 历史 战争 / 谢尔盖·邦达尔丘克 / Lyudmila Saveleva Sergey Bondarchuk",
+        "id": "1303712",
+        "null_rating_reason": ""
+      },
+      "target_type": "movie"
+    },
+    {
+      "type_name": "电影",
+      "layout": "subject",
+      "target": {
+        "rating": {
+          "count": 1701,
+          "max": 10,
+          "star_count": 4.5,
+          "value": 9.2
+        },
+        "controversy_reason": "",
+        "title": "战争与和平4：皮埃尔·别祖霍夫",
+        "abstract": "",
+        "has_linewatch": false,
+        "uri": "douban://douban.com/movie/1297822",
+        "cover_url": "https://qnmob3.doubanio.com/view/photo/large/public/p2598414519.jpg?imageView2/0/q/80/w/9999/h/120/format/jpg",
+        "year": "1967",
+        "card_subtitle": "9.2分 / 1967 / 苏联 / 剧情 历史 战争 / 谢尔盖·邦达尔丘克 / Sergey Bondarchuk Vyacheslav Tikhonov",
+        "id": "1297822",
+        "null_rating_reason": ""
+      },
+      "target_type": "movie"
+    },
+    {
+      "type_name": "电视剧",
+      "layout": "subject",
+      "target": {
+        "rating": {
+          "count": 583,
+          "max": 10,
+          "star_count": 4.5,
+          "value": 9.2
+        },
+        "controversy_reason": "",
+        "title": "战争与回忆",
+        "abstract": "",
+        "has_linewatch": false,
+        "uri": "douban://douban.com/tv/1868595",
+        "cover_url": "https://qnmob3.doubanio.com/view/photo/large/public/p1305800316.jpg?imageView2/0/q/80/w/9999/h/120/format/jpg",
+        "year": "1988",
+        "card_subtitle": "9.2分 / 1988 / 美国 / 剧情 战争 / 丹·柯蒂斯 / 简·西摩 哈特·巴克纳",
+        "id": "1868595",
+        "null_rating_reason": ""
+      },
+      "target_type": "tv"
+    },
+    {
+      "type_name": "电影",
+      "layout": "subject",
+      "target": {
+        "rating": {
+          "count": 4710,
+          "max": 10,
+          "star_count": 3,
+          "value": 6.1
+        },
+        "controversy_reason": "",
+        "title": "战争机器",
+        "abstract": "",
+        "has_linewatch": false,
+        "uri": "douban://douban.com/movie/11518990",
+        "cover_url": "https://qnmob3.doubanio.com/view/photo/large/public/p2458748574.jpg?imageView2/0/q/80/w/9999/h/120/format/jpg",
+        "year": "2017",
+        "card_subtitle": "6.1分 / 2017 / 美国 / 剧情 喜剧 战争 / 大卫·米奇欧德 / 布拉德·皮特 安东尼·海斯",
+        "id": "11518990",
+        "null_rating_reason": ""
+      },
+      "target_type": "movie"
+    },
+    {
+      "type_name": "游戏",
+      "layout": "subject",
+      "target": {
+        "rating": {
+          "count": 1086,
+          "max": 10,
+          "star_count": 4.5,
+          "value": 8.7
+        },
+        "controversy_reason": "",
+        "title": "战争机器 Gears of War",
+        "abstract": "",
+        "uri": "douban://douban.com/game/10751726",
+        "cover_url": "https://img1.doubanio.com/mpic/s11182857.jpg",
+        "card_subtitle": "8.7分 / GoW/Gears/GeoW/射击/动作/PC/Xbox One/Xbox 360/Epic Games/2006-11-07",
+        "id": "10751726",
+        "null_rating_reason": ""
+      },
+      "target_type": "game"
+    },
+    {
+      "type_name": "电影",
+      "layout": "subject",
+      "target": {
+        "rating": {
+          "count": 2152,
+          "max": 10,
+          "star_count": 4,
+          "value": 8.1
+        },
+        "controversy_reason": "",
+        "title": "战争房间",
+        "abstract": "",
+        "has_linewatch": false,
+        "uri": "douban://douban.com/movie/26591731",
+        "cover_url": "https://qnmob3.doubanio.com/view/photo/large/public/p2276897865.jpg?imageView2/0/q/80/w/9999/h/120/format/jpg",
+        "year": "2015",
+        "card_subtitle": "8.1分 / 2015 / 美国 / 剧情 / 埃里克斯·肯德里克 / 凯伦·阿伯克龙比 普里西拉·C·夏勒",
+        "id": "26591731",
+        "null_rating_reason": ""
+      },
+      "target_type": "movie"
+    },
+    {
+      "type_name": "电影",
+      "layout": "subject",
+      "target": {
+        "rating": {
+          "count": 1612,
+          "max": 10,
+          "star_count": 3.5,
+          "value": 7.3
+        },
+        "controversy_reason": "",
+        "title": "战争游戏",
+        "abstract": "",
+        "has_linewatch": false,
+        "uri": "douban://douban.com/movie/1293522",
+        "cover_url": "https://qnmob3.doubanio.com/view/photo/large/public/p2386583257.jpg?imageView2/0/q/80/w/9999/h/120/format/jpg",
+        "year": "1983",
+        "card_subtitle": "7.3分 / 1983 / 美国 / 剧情 惊悚 / 约翰·班德汉姆 / 马修·布罗德里克 艾丽·西蒂",
+        "id": "1293522",
+        "null_rating_reason": ""
+      },
+      "target_type": "movie"
+    }
+  ],
+  "total": 5885,
+  "start": 0
+}
