@@ -1,5 +1,5 @@
 <template>
-  <div class="movie-comments">
+  <div class="movie-comments" v-if="detailData.list.length">
     <h2 class="intro-title">
       {{title}}的影评· · · · ·
     </h2>

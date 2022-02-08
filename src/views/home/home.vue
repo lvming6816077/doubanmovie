@@ -3,7 +3,7 @@
     <div class="left-content">
       <div class="now-play play-section">
           <h2 class="title">正在热映</h2>
-          <div class="section-bottom">
+          <div class="section-bottom" v-if="nowplayList.length">
             <slider>
               <mitem v-for="item in nowplayList" :itemData="item" :key="item.id" /> 
             </slider>
@@ -11,7 +11,7 @@
       </div>
       <div class="recent-play play-section">
           <h2 class="title">最近热门电影</h2>
-          <div class="section-bottom">
+          <div class="section-bottom" v-if="recentplayList.length">
             <slider>
               <div v-for="(item,index) in recentplayList" :key="index" class="recent-item">
                 <mitem v-for="(_item,_index) in item" :itemData="_item" :key="_item.id" /> 
@@ -138,15 +138,19 @@
     width: 300px;
     margin-left: 20px;
   }
-  .section-bottom {
 
-  }
   .title {
     font-size: 16px;;
     color: #111;
     padding-bottom: 10px;
     border-bottom: 1px solid #eaeaea;
     margin-bottom: 18px;
+  }
+  .now-play {
+    min-height: 344px;
+  }
+  .recent-play {
+    min-height: 565px;
   }
   .play-section {
     padding: 15px;

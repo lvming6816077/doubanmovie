@@ -1,5 +1,5 @@
 <template>
-  <div class="movie-actors">
+  <div class="movie-actors" v-if="detailData.list.length">
     <h2 class="intro-title">
       {{title}}的演职员· · · · ·
     </h2>

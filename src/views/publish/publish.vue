@@ -27,6 +27,8 @@
   import service from '@/utils/service'
   import Vuex from 'vuex'
   import moment from 'moment'
+  import {useRoute} from 'vue-router'
+  import configapi from '@/utils/configapi'
   /**
    * 待办事项页面组件
    */
@@ -42,13 +44,13 @@
         list:new Array(5).fill({state:'normal'})
       })
 
+      const route = useRoute()
+      let id = computed(() => route.query.id);
       onMounted(async () => {
-        let data = await service.get('./json/detail/detail.json')
+        
+        let data = await service.get(configapi.detail(id.value),{})
         movieData.value = data
-
       });
-
-      
 
       const changeScore = (index)=>{
         let list = []
@@ -98,7 +100,7 @@
           abstract:this.content
         })
 
-        this.$router.push('/detail')
+        this.$router.push('/detail?id='+this.movieData.id)
       }
     }
   }

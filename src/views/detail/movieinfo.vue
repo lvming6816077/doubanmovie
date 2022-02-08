@@ -30,12 +30,12 @@
           </div>
         </div>
         <div class="better-content">
-          <div v-for="(item,index) in rate.betterList" class="better-item">好于 <a href="#">{{item.rank*100+'%'}} {{item.type}}</a></div>
+          <div v-for="(item,index) in rate.betterList" class="better-item">好于 <a href="#">{{(item.rank*100).toFixed(1)+'%'}} {{item.type}}</a></div>
         </div>
       </div>
     </div>
     <div class="opera-box">
-      <div>我的评分：</div>
+      <div>请评分：</div>
       <div>
         <img src="https://img3.doubanio.com/f/shire/5bbf02b7b5ec12b23e214a580b6f9e481108488c/pics/add-review.gif">&nbsp;
         <a href="javascript:void(0)" class="comment-link" @click="goPublish">写影评</a>
@@ -131,7 +131,7 @@
     methods:{
       goPublish(){
         if (this.$store.state.userInfo.nickname) {
-          this.$router.push('/publish')
+          this.$router.push('/publish?id='+this.detailData.id)
         } else {
           this.$router.push('/login')
         }
