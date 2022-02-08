@@ -3,12 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
+    "dev:client": "vite",
+    "build:client": "vite build --outDir dist/client --ssrManifest",
+    "dev:ssr": "node ./server.js",
+    "build:ssr": "vite build --ssr src/entry-server.js --outDir dist/server",
+    "serve": "cross-env NODE_ENV=production node server",
+    "build": "npm run build:client && npm run build:ssr"
   },
   "dependencies": {
+    "compression": "^1.7.4",
     "core-js": "^3.6.5",
+    "cross-env": "^7.0.3",
+    "express": "^4.17.2",
     "mitt": "^1.2.0",
     "moment": "^2.29.1",
     "vue": "^3.0.0",
