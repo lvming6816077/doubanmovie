@@ -53,7 +53,7 @@
 </template>
 
 <script>
-  import {ref,onMounted,toRaw, reactive,computed} from 'vue'
+  import {ref,onMounted, reactive,computed} from 'vue'
   import service from '@/utils/service'
   import rankstar from '@/components/rankstar/rankstar.vue'
   import configapi from '@/utils/configapi'

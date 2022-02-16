@@ -3,7 +3,7 @@
     <div class="left-content">
       <div class="now-play play-section">
           <h2 class="title">正在热映</h2>
-          <div class="section-bottom" v-if="nowplayList.length">
+          <div class="section-bottom" v-if="nowplayList && nowplayList.length">
             <slider>
               <mitem v-for="item in nowplayList" :itemData="item" :key="item.id" /> 
             </slider>
@@ -11,7 +11,7 @@
       </div>
       <div class="recent-play play-section">
           <h2 class="title">最近热门电影</h2>
-          <div class="section-bottom" v-if="recentplayList.length">
+          <div class="section-bottom" v-if="recentplayList && recentplayList.length">
             <slider>
               <div v-for="(item,index) in recentplayList" :key="index" class="recent-item">
                 <mitem v-for="(_item,_index) in item" :itemData="_item" :key="_item.id" /> 
@@ -64,60 +64,33 @@
 <script>
   import mitem from '@/components/mitem/mitem.vue'
   import slider from '@/components/slider/slider.vue'
-  import {reactive,ref,computed,onMounted} from 'vue'
+  import {reactive,ref,computed} from 'vue'
   
   import service from '@/utils/service'
   import Vuex from 'vuex'
   import configapi from '@/utils/configapi'
+  import { useStore } from 'vuex'
   /**
    * 待办事项页面组件
    */
   export default {
+    asyncData({store}) {
+      return store.dispatch('getHomeMovieData')
+    },
     name: 'home',// 组件的名称，尽量和文件名一致
     components: {
       mitem,
       slider
     },
     setup(){
-      let nowplayList = ref([])
-      let recentplayList = ref([])
-      let rankList = ref([])
-
-      // 将数据进行分组
-      let toArray = (data)=>{
-        let n = 10 // 10个一组
-        let len = data.length
-        let num = len % n == 0 ? len/n : Math.floor(len/n)+1
-        let res = []
-        for (var i = 0 ; i < num ; i++) {
-          res.push(data.slice(i*n,i*n+n))
-        }
-
-        return res
+      const store = useStore()
+      if (!import.meta.env.SSR) {
+        store.dispatch('getHomeMovieData')
       }
-      onMounted(async () => {
-        let data = await service.get(configapi.nowmovie,{
-          start:0,
-          count:50,
-        })
-        nowplayList.value = data.subject_collection_items || [];
-
-        let recentData = await service.get(configapi.recentmovie,{
-          start:0,
-          count:50,
-        })
-        recentplayList.value = toArray(recentData.subject_collection_items || []);
-
-        let rankData = await service.get(configapi.toprank,{
-          start:0,
-          count:10,
-        })
-
-        rankList.value = rankData.subject_collection_items || [];
-
-      });
-      const store = Vuex.useStore()
-
+      
+      let nowplayList = computed(()=> store.state.nowplayList)
+      let recentplayList = computed(()=> store.state.recentplayList)
+      let rankList = computed(()=> store.state.rankList)
 
       return {
         nowplayList,

@@ -43,8 +43,11 @@ async function createServer(
     app.use(vite.middlewares)
   } else {
     app.use(require('compression')())
-    app.use('/ssr', express.static(resolve('dist/client'),{index: false}));// index false表示匹配不到静态文件时 不做处理交给后面逻辑
+    app.use('/js', express.static(resolve('dist/client/js'),{index: false}));// index false表示匹配不到静态文件时 不做处理交给后面逻辑
+    app.use('/css', express.static(resolve('dist/client/css'),{index: false}));
+    app.use('/assets', express.static(resolve('dist/client/assets'),{index: false}));
     app.use('/json', express.static(resolve('dist/client/json'),{index: false}));
+    app.use('/favicon', express.static(resolve('dist/client/favicon'),{index: false}));
   }
 
   app.use('*', async (req, res) => {
@@ -52,7 +55,7 @@ async function createServer(
       let url = req.originalUrl
       // console.log(url)
 
-      url = url.replace('/ssr','')
+    //   url = url.replace('/ssr','')
 
       let template, render
       if (!isProd) {

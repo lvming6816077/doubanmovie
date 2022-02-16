@@ -27,7 +27,6 @@
   import {useRoute} from 'vue-router'
   import moment from 'moment'
   import rankstar from '@/components/rankstar/rankstar.vue'
-  import configapi from '@/utils/configapi'
   /**
    * 待办事项页面组件
    */
@@ -50,7 +49,7 @@
       watch(
         () => route.query.searchText,
         async (v) => {
-            let data = await service.get(configapi.search,{
+            let data = await service.get('/api/v2/search/weixin',{
             start:0,
             count:20,
             q:v

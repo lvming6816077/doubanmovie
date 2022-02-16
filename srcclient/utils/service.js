@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 
-const baseURL = import.meta.env.SSR ? 'http://localhost:8887' : '/'// 此处和webpack的publicPath保持一致
+const baseURL = '/'// 此处和webpack的publicPath保持一致
 const apiKey = '0ac44ae016490db2204ce0a042db2916'
 
 // 创建axios实例
@@ -32,6 +32,7 @@ service.interceptors.request.use(config => {
 // 添加respone拦截器
 service.interceptors.response.use(
   response => {
+
     return response.data
   },
   error => {

@@ -2,7 +2,7 @@
   <div class="nav-wapper">
     <div class="nav-header">
         <div class="nav-logo" @click="$router.push('/')"></div>
-        <div class="nav-search">
+        <div class="nav-search"  v-show="!($route.path == '/login')">
             <input id="inp" placeholder="搜索电影、电视剧、综艺、影人" v-model.trim="searchText"/>
             <div class="search-btn" @click="goSearch"></div>
         </div>
@@ -28,12 +28,12 @@
 
     setup(props,context){
       const store = Vuex.useStore()
-      const router = useRoute()
+      const route = useRoute()
       const user = computed(() => store.state.userInfo);
       const searchText = ref('');
 
       watchEffect(()=>{
-        searchText.value = router.query.searchText
+        searchText.value = route.query.searchText
       })
 
 

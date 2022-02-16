@@ -10,7 +10,7 @@
 </template>
 
 <script>
-  import {ref,onMounted,toRaw, reactive} from 'vue'
+  // import {ref,onMounted,toRaw, reactive} from 'vue'
   import service from '@/utils/service'
   import movieinfo from './movieinfo.vue'
   import movieactors from './movieactors.vue'

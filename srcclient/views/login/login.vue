@@ -32,13 +32,14 @@
     components: {
     },
     setup(){
-
+      // 用户数据响应式数据
       let loginInfo = reactive({
         username:'',
         password:'',
         errorInfo: false
       })
-
+      
+      // 模拟用户信息
       const userInfo = {
         nickname:'吕小鸣',
         age:30,
@@ -48,12 +49,15 @@
 
       const store = Vuex.useStore()
       const { proxy } = getCurrentInstance()
-
+      
+      // 登陆按钮点击回调
       const login = ()=>{
         // 验证用户名密码
         if (loginInfo.username == 'lvming' && loginInfo.password == 'abc123') {
+          // 记录在Vuex的Store中
           store.commit('setUser',userInfo)
           loginInfo.errorInfo = false
+          // 跳转到登陆前的页面
           if (proxy.prevRoute) {
             proxy.$router.push(proxy.prevRoute)
           }
@@ -61,8 +65,6 @@
           loginInfo.errorInfo = true
         }
       }
-      
-
       return {
         loginInfo,
         login

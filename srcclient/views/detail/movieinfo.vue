@@ -53,14 +53,14 @@
 </template>
 
 <script>
-  import {ref,onMounted, reactive,computed} from 'vue'
+  import {ref,onMounted,toRaw, reactive,computed} from 'vue'
   import service from '@/utils/service'
   import rankstar from '@/components/rankstar/rankstar.vue'
   import configapi from '@/utils/configapi'
   import Vuex from 'vuex'
   import {useRoute} from 'vue-router'
   /**
-   * 待办事项页面组件
+   * 电影基本信息组件
    */
   export default {
     name: 'movieinfo',// 组件的名称，尽量和文件名一致
@@ -82,16 +82,16 @@
       const route = useRoute()
       let id = computed(() => route.query.id);
       onMounted(async () => {
-        
+        // 获取数据
         detailData.value = await service.get(configapi.detail(id.value),{})
-
+        // 设置当前电影的title，为了通知其他组件，所以放在Vuex的Store中
         store.commit('setTitle',detailData.value.title)
 
         actors.orgin = detailData.value.actors||[]
         actors.short = actors.orgin.slice(0,3)
         actors.isShowMore = actors.orgin.length > 3
 
-
+        // 渲染评分高低排名
         let rateData = await service.get(configapi.rate(id.value),{})
 
         rate.list = dealRateData(rateData)
@@ -99,21 +99,24 @@
 
       });
 
+      // 格式化评分数据
       const dealRateData = (rateData)=>{
+        // 100%的最大宽度
         let maxwidth = 70
         let list = []
 
         for (let i = 0 ; i < rateData.stats.length ; i++) {
           let r = rateData.stats[i].toFixed(3)*100
+          // 以此通过评分计算百分比宽度
           list.push({
             index: i+1,
             count:r,
             width: r*maxwidth/100
           })
         }
-        return list.reverse()
+        return list.reverse()// 从高到低排列
       }
-
+      // 展开所有演员名字
       const expand = ()=>{
         actors.short = actors.orgin
         actors.isShowMore = false
@@ -129,6 +132,7 @@
       }
     },
     methods:{
+      // 跳转到发表页面
       goPublish(){
         if (this.$store.state.userInfo.nickname) {
           this.$router.push('/publish?id='+this.detailData.id)

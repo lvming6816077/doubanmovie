@@ -22,25 +22,25 @@ export default {
   },
 
   setup(props, context) {
-    const { proxy } = getCurrentInstance()
+    const { proxy } = getCurrentInstance() // 获取上下文对象
     let translateX = 0
-    const unit = 675 // (115 + 10 + 10)*5
+    const unit = 675 // (115 + 10 + 10)*5 宽度+左右边距
     const prePage = ()=>{
       translateX = translateX - unit
-      if (translateX <= 0) {
+      if (translateX <= 0) { // 当翻页到最左边时 不可再翻
         translateX = 0
       }
       
-      proxy.$refs.scrollContent.style.transform = 'translateX(-'+translateX+'px)'
+      proxy.$refs.scrollContent.style.transform = 'translateX(-'+translateX+'px)' // 利用translateX设置位移
     }
     const nextPage = ()=>{
       translateX = translateX + unit
-      let maxwidth = proxy.$refs.scrollContent.clientWidth
-      if (translateX >= maxwidth) {
+      let maxwidth = proxy.$refs.scrollContent.clientWidth // 获取框体宽度
+      if (translateX >= maxwidth) {// 当翻页到最右边时 不可再翻
         translateX = Math.max(maxwidth-unit,translateX-unit)
       }
       
-      proxy.$refs.scrollContent.style.transform = 'translateX(-'+translateX+'px)'
+      proxy.$refs.scrollContent.style.transform = 'translateX(-'+translateX+'px)'// 利用translateX设置位移
     }
 
     return {

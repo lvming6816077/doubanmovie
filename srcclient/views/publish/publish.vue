@@ -40,26 +40,30 @@
 
       let movieData = ref({})
       let content = ref('')
+      // 评星组件
       let starlist = reactive({
         list:new Array(5).fill({state:'normal'})
       })
 
       const route = useRoute()
+      // 获取url上的id参数
       let id = computed(() => route.query.id);
+      // 请求电影基本信息数据
       onMounted(async () => {
         
         let data = await service.get(configapi.detail(id.value),{})
         movieData.value = data
       });
-
+      
+      // 评星结果
       const changeScore = (index)=>{
         let list = []
-        
+        // 根据鼠标坐在星的index顺序，将之前的星变成实心
         starlist.list.forEach((item,_index)=>{
           if (_index <= index) {
-            item.state = 'full'
+            item.state = 'full' // 实心
           } else {
-            item.state = 'normal'
+            item.state = 'normal'// 空心
           }
           list.push({...item})
           
@@ -67,7 +71,6 @@
         starlist.list = list
       }
       
-
       return {
         movieData,
         starlist,
@@ -82,21 +85,25 @@
     },
     methods:{
       submit(){
+        // 根据starlist.list数组中full的项得到星数
         let count = 0
         this.starlist.list.forEach((item)=>{
           if (item.state == 'full') {
             count++
           }
         })
+        // 构造评论列表需要的数据
         this.$store.commit('setCommentList',{
           rating:{
             value: count
           },
-          user:{
+          user:{// 从用户信息Store中获取头像和昵称
             avatar:this.userInfo.avatar,
             name:this.userInfo.name
           },
+          // 发表时间
           create_time:moment().format('YYYY-MM-DD HH:mm:ss'),
+          // 内容
           abstract:this.content
         })
 

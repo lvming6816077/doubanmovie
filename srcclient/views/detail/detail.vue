@@ -5,12 +5,11 @@
       <movieactors />
       <moviecomments />
     </div>
-    
   </div>
 </template>
 
 <script>
-  // import {ref,onMounted,toRaw, reactive} from 'vue'
+  import {ref,onMounted,toRaw, reactive} from 'vue'
   import service from '@/utils/service'
   import movieinfo from './movieinfo.vue'
   import movieactors from './movieactors.vue'
@@ -18,7 +17,7 @@
   
   import Vuex from 'vuex'
   /**
-   * 待办事项页面组件
+   * 详情页面组件
    */
   export default {
     name: 'detail',// 组件的名称，尽量和文件名一致

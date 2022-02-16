@@ -22,7 +22,7 @@
   import Vuex from 'vuex'
   import {useRoute} from 'vue-router'
   /**
-   * 待办事项页面组件
+   * 电影演员图片列表组件
    */
   export default {
     name: 'movieactors',// 组件的名称，尽量和文件名一致
@@ -30,15 +30,16 @@
     },
     setup(){
       const store = Vuex.useStore()
+      // 从Vuex的Store中获取title
       const title = computed(() => store.state.detailTitle);
       let detailData = reactive({
         list:[]
       })
       const route = useRoute()
       let id = computed(() => route.query.id);
+      // 获取演员图片列表数据
       onMounted(async () => {
         let data = await service.get(configapi.actors(id.value))
-
         detailData.list = data.directors.concat(data.actors)
 
       });

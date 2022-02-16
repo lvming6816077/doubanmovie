@@ -34,20 +34,23 @@
     },
     setup(){
       const store = Vuex.useStore()
+      // 从Vuex的Store中获取title
       const title = computed(() => store.state.detailTitle);
+      // 获取用户自己发票的评论数据
       const incommentList = computed(() => store.state.commentList);
 
       let detailData = reactive({
         list:[]
       })
       const route = useRoute()
+      // 从url上获取id参数
       let id = computed(() => route.query.id);
       onMounted(async () => {
         let data = await service.get(configapi.comments(id.value),{
           start:0,
           count:20
         })
-
+        // 将后端获取的数据和用户发票的数据进行组合
         detailData.list = incommentList.value.concat(data.reviews || [])
 
       });
