@@ -43,7 +43,8 @@ async function createServer(
     app.use(vite.middlewares)
   } else {
     app.use(require('compression')())
-    app.use('/js', express.static(resolve('dist/client/js'),{index: false}));// index false表示匹配不到静态文件时 不做处理交给后面逻辑
+    // index false表示匹配不到静态文件时 不做处理交给后面逻辑
+    app.use('/js', express.static(resolve('dist/client/js'),{index: false}));
     app.use('/css', express.static(resolve('dist/client/css'),{index: false}));
     app.use('/assets', express.static(resolve('dist/client/assets'),{index: false}));
     app.use('/json', express.static(resolve('dist/client/json'),{index: false}));
@@ -53,9 +54,6 @@ async function createServer(
   app.use('*', async (req, res) => {
     try {
       let url = req.originalUrl
-      // console.log(url)
-
-    //   url = url.replace('/ssr','')
 
       let template, render
       if (!isProd) {
@@ -67,10 +65,13 @@ async function createServer(
         template = indexProd
         render = require('./dist/server/entry-server.js').render
       }
-
+      // 调用entry-server.js的render方法
       const [appHtml, preloadLinks, store] = await render(url, manifest)
+
+      // 将服务端获取的数据注入到html页面中
       const state = ("<script>window.__INIT_STATE__" + "=" + serialize(store, { isJSON: true }) + "</script>");
 
+      // 组装html
       const html = template
         .replace(`<!--preload-links-->`, preloadLinks)
         .replace(`<!--app-html-->`, appHtml)

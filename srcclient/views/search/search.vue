@@ -27,8 +27,9 @@
   import {useRoute} from 'vue-router'
   import moment from 'moment'
   import rankstar from '@/components/rankstar/rankstar.vue'
+  import configapi from '@/utils/configapi'
   /**
-   * 待办事项页面组件
+   * 搜索页面组件
    */
   export default {
     name: 'search',// 组件的名称，尽量和文件名一致
@@ -36,20 +37,19 @@
       rankstar
     },
     setup(){
-
-      let movieData = ref({})
-      let content = ref('')
+      // 搜索列表数据
       let searchList = reactive({
         list:[]
       })
       const route = useRoute()
-
+      // 从url上获取搜索词searchText
       let searchText = computed(() => route.query.searchText);
-
+      // 采用watch监听搜索词的变化
       watch(
         () => route.query.searchText,
         async (v) => {
-            let data = await service.get('/api/v2/search/weixin',{
+            // 发生变化后，根据搜索词请求数据
+            let data = await service.get(configapi.search,{
             start:0,
             count:20,
             q:v
@@ -65,39 +65,9 @@
         }
       )
 
-
-      onMounted(async ()=>{
-
-        
-      })
-      
-
-      const changeScore = (index)=>{
-        let list = []
-        
-        starlist.list.forEach((item,_index)=>{
-          if (_index <= index) {
-            item.state = 'full'
-          } else {
-            item.state = 'normal'
-          }
-          list.push({...item})
-          
-        })
-        starlist.list = list
-      }
-      
-
       return {
-        searchList,
-        changeScore
+        searchList
       }
-    },
-    computed: {
-
-    },
-    methods:{
-
     }
   }
 </script>

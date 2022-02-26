@@ -71,9 +71,10 @@
   import configapi from '@/utils/configapi'
   import { useStore } from 'vuex'
   /**
-   * 待办事项页面组件
+   * 首页页面组件
    */
   export default {
+    // 定义静态方法
     asyncData({store}) {
       return store.dispatch('getHomeMovieData')
     },
@@ -84,10 +85,7 @@
     },
     setup(){
       const store = useStore()
-      if (!import.meta.env.SSR) {
-        store.dispatch('getHomeMovieData')
-      }
-      
+      // 从store获取数据
       let nowplayList = computed(()=> store.state.nowplayList)
       let recentplayList = computed(()=> store.state.recentplayList)
       let rankList = computed(()=> store.state.rankList)
