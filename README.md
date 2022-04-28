@@ -1,6 +1,6 @@
 # doubanmovie
 
-### [《Vue.js 3应用开发与核心源码解析》](https://detail.tmall.com/item.htm?spm=a230r.1.14.1.52fe5594vGYpMr&id=620482199343&ns=1&abbucket=17)之--豆瓣电影评分系统实战案例配套源码
+### [《Vue.js 3应用开发与核心源码解析》](https://item.jd.com/12673835.html)之--豆瓣电影评分系统实战案例配套源码
 
 ## 安装依赖
 ```
